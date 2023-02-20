@@ -1,0 +1,3 @@
+* * * * * echo "`date`: executed automatically." >> $HOME/linux-study/chap3/crontest.txt
+3 * * * * echo "`date`: 3min." >> $HOME/linux-study/chap3/crontest.txt
+
