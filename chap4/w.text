@@ -1,0 +1,3 @@
+ 22:52:27 up 14 min,  1 user,  load average: 0.08, 0.15, 0.15
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+jyh      pts/0    10.100.0.2       22:38    3.00s  0.04s  0.00s w
