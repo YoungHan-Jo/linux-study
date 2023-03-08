@@ -1,0 +1,8 @@
+PING google.com (142.250.76.142) 56(84) bytes of data.
+64 bytes from kix07s06-in-f14.1e100.net (142.250.76.142): icmp_seq=1 ttl=57 time=28.1 ms
+64 bytes from kix07s06-in-f14.1e100.net (142.250.76.142): icmp_seq=2 ttl=57 time=28.4 ms
+64 bytes from kix07s06-in-f14.1e100.net (142.250.76.142): icmp_seq=3 ttl=57 time=28.0 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2012ms
+rtt min/avg/max/mdev = 27.957/28.179/28.441/0.199 ms
