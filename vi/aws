@@ -4,3 +4,12 @@ A. AWS Config
 B. Service Quotas
 C. AWS Service Catalog
 D. AWS Budgets
+
+A company wants to limit its employee's AWS access to a portfolio of predefined AWS resources.
+Which AWS solution should the company use to meet this requirement?
+
+A. AWS Config
+B. AWS software development kits (SDKs)
+C. AWS Service Catalog
+D. AWS AppSync
+
