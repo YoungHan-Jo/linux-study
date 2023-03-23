@@ -1,0 +1,1000 @@
+  134  df -h
+  135  docker images
+  136  docker ps
+  137  docker stop upbeat_hodgkin 
+  138  docker ps
+  139  docker pull jenkins/jenkins
+  140  docker run jenkins/jenkins
+  141  docker ps
+  142  docker run -d jenkins/jenkins
+  143  docker ps
+  144  docker stop unruffled_chebyshev 
+  145  docker run -p 8080:8080 jenkins/jenkins
+  146  ls
+  147  ls my-jenkins-data/
+  148  ls
+  149  docker run --name=db postgres:15-alpine
+  150  docker ps
+  151  docker run -d --name db postgres:15-alpine 
+  152  docker ps
+  153  docker rm d811e
+  154  docker run -d --name db postgres:15-alpine 
+  155  docker ps
+  156  docker ps -a
+  157  docker rm db
+  158  docker ps -a
+  159  docker run -d postgres
+  160  docker ps
+  161  docker run -d postgres:9.4
+  162  docker ps
+  163  ls
+  164  cd example-voting-app/
+  165  ls
+  166  cd worker/
+  167  ls
+  168  cat Dockerfile 
+  169  docker build . -t worker-app
+  170  vi Dockerfile 
+  171  docker build . -t worker-app
+  172  vi Dockerfile 
+  173  ls
+  174  cat Worker.csproj 
+  175  cat Dockerfile 
+  176  vi Dockerfile 
+  177  cat Dockerfile 
+  178  docker build --build-arg BUILDPLATFORM=linux/arm64/v8 -t worker-app
+  179  docker build --build-arg BUILDPLATFORM=linux/arm64/v8 . -t worker-app
+  180  docker build --build-arg {BUILDPLATFORM}=linux/arm64/v8 . -t worker-app
+  181  vi Dockerfile 
+  182  docker build . -t worker-app
+  183  vi Dockerfile 
+  184  docker build . -t worker-app
+  185  vi Dockerfile 
+  186  docker build . -t worker-app
+  187  cat Dockerfile 
+  188  vi Dockerfile 
+  189  docker build . -t worker-app
+  190  sudo apt-get update
+  191  sudo apt-get install docker-compose-plugin
+  192  docker compose version
+  193  docker ps
+  194  docker stop elastic_chatelet redis 
+  195  docker ps -a
+  196  docker rm keen_perlman intelligent_lamport ecstatic_antonelli boring_shamir nervous_mayer silly_napier vigilant_mayer elastic_chatelet redis infallible_gould compassionate_sutherland busy_almeida 
+  197  docker ps -a
+  198  docker ps
+  199  ls
+  200  cd ..
+  201  ls
+  202  mkdir compose
+  203  cd compose/
+  204  ls
+  205  cat > docker-compose.yaml
+  206  vi docker-compose.yaml 
+  207  docker-compose up
+  208  docker-comppose.yaml
+  209  docker-compose up
+  210  sudo apt-get install docker-compose
+  211  docker ps
+  212  docker-compose up
+  213  docker ps
+  214  docker ps -a
+  215  ls
+  216  vi docker-compose.yaml 
+  217  docker-compose up
+  218  ls
+  219  docker-compose up
+  220  ls
+  221  cd linux-study/
+  222  ls
+  223  ln -s words words-link
+  224  ls
+  225  ls -l
+  226  ls -lF
+  227  ls -F
+  228  vi words-link 
+  229  head -3 words-link 
+  230  git status
+  231  git add *
+  232  git status
+  233  git commit -m 'link'
+  234  git push
+  235  ls -l
+  236  find ~ -name words -print
+  237  find ~ -name words -ls
+  238  find ~ -name words
+  239  cd
+  240  ls
+  241  git clone https://github.com/dockersamples/example-voting-app.git
+  242  ls
+  243  cd example-voting-app/
+  244  ls
+  245  cd vote/
+  246  ls
+  247  docker build . -t voting-app
+  248  docker images
+  249  docker run -p 5000:80 voting-app
+  250  docker run -d --name redis redis
+  251  docker ps
+  252  docker run -p 5000:80 --link redis:redis voting-app
+  253  docker ps
+  254  docker-compose down
+  255  ls
+  256  cd ..
+  257  ls
+  258  cd compose/
+  259  ls
+  260  docker-compose down
+  261  docker ps
+  262  docker ps -a
+  263  mv docker-compose.yaml docker-compose.yml
+  264  ls
+  265  vi docker-compose.yml 
+  266  ls
+  267  cd
+  268  ls
+  269  docker ps
+  270  docker images
+  271  docker ps
+  272  docker run -d -p 5000:5000 --name registry registry:2
+  273  docker ps
+  274  clear
+  275  docker run -it --rm -p 8888:8080 tomcat:9.0~
+  276  docker run -it --rm -p 8888:8080 tomcat:9.0
+  277  docker run -d -it --rm -p 8888:8080 tomcat:9.0
+  278  docker exec 7c44 ps -eaf
+  279  ps
+  280  docker ps
+  281  ps -eaf | grep /opt/java/openjdk/bin/java
+  282  clear
+  283  docker ps
+  284  docker stop vigorous_sutherland 
+  285  docker stop registry 
+  286  docker ps -a
+  287  docker rm registry 
+  288  docker ps -a
+  289  ls
+  290  cd linux-study/
+  291  ls
+  292  sort
+  293  ls
+  294  mkdir redirect
+  295  cd redirect/
+  296  ls
+  297  ps > pslog
+  298  cat pslog 
+  299  cat < pslog 
+  300  date >> pslog 
+  301  cat < pslog 
+  302  ls -l wine beer
+  303  touch beer
+  304  ls -l wine beer > lslog
+  305  cat lslog 
+  306  ls -l wine beer 2> eerlog
+  307  cat eerlog 
+  308  cat pslog 
+  309  ls
+  310  rm pslog 
+  311  ls
+  312  ps > pslog
+  313  cat pslog
+  314  date >> pslog
+  315  cat pslog 
+  316  ls
+  317  rm lslog
+  318  ls
+  319  rm eerlog 
+  320  rm beer
+  321  touch apple
+  322  ls
+  323  ls -l apple peach > lslog
+  324  cat lslog 
+  325  ls -l apple peash 2> errlog
+  326  cat errlog
+  327  clear
+  328  ls -l apple peach > lslog 1>&2
+  329  cat lslog 
+  330  ls -l apple peach
+  331  ls -l apple peach 1> lslog
+  332  cat lslog 
+  333  ls -l apple peach >&1 lslog
+  334  ls -l apple peach 2>&2 lslog
+  335  cat lslog 
+  336  ls apple peach 2> lslog
+  337  ls
+  338  ls >& file
+  339  cat file
+  340  ls -l apple peach >& file
+  341  cat file
+  342  lslog
+  343  rm lslog
+  344  ls -l apple peach > lslog 1>&2
+  345  cat lslog
+  346  rm lslog
+  347  ls -l apple peach 2>&1 > lslog
+  348  cat lslog
+  349  ls -l apple peach > lslog
+  350  rm errlog
+  351  ls -l apple peach > errlog 2>&1
+  352  cat errlog 
+  353  ls -l apple peach >& file
+  354  cat file
+  355  cd ..
+  356  ls
+  357  git status
+  358  git add *
+  359  git status
+  360  git commit -m 'redirect input output'
+  361  git push
+  362  su
+  363  su -i
+  364  sudo -i
+  365  ls
+  366  ls -l /etc/gshadow
+  367  cat /etc/gshadow
+  368  cat /etc/gshadow | head
+  369  sudo cat /etc/gshadow | head
+  370  useradd -m beer
+  371  sudo -i
+  372  sudo -i beer
+  373  sudo -i
+  374  ls
+  375  cd linux-study/
+  376  git status
+  377  sudo -i
+  378  clear
+  379  ls
+  380  shutdown -P +1
+  381  shutdown -P now
+  382  sudo -i
+  383  ls
+  384  cd linux-study/
+  385  ls
+  386  mkdir chap2
+  387  ls
+  388  cd chap2
+  389  ls
+  390  ls /var
+  391  ls -F /var
+  392  cd ..
+  393  ls
+  394  git status
+  395  git add *
+  396  git status
+  397  ls
+  398  cd chap2
+  399  ls
+  400  ls -F /var > ls-F
+  401  ls
+  402  cat ls-F 
+  403  cd ..
+  404  ls
+  405  ls status
+  406  git status
+  407  git add *
+  408  git status
+  409  git commit -m 'chap2'
+  410  git push
+  411  ls
+  412  cd chap2
+  413  ls
+  414  ls -a
+  415  ls -aF
+  416  ls -l
+  417  cd ..
+  418  ls -l
+  419  ls -al
+  420  ls -al /var
+  421  ls -lh
+  422  ls -t
+  423  ls -lt
+  424  ls -t
+  425  ls
+  426  cd chap2
+  427  ls
+  428  rm ls-F 
+  429  ls
+  430  mkdir malt
+  431  ls
+  432  ls -F
+  433  ps axuw
+  434  ls
+  435  clear
+  436  ls
+  437  mkdir barley wheat
+  438  ls
+  439  ls -lF
+  440  ls -lFt
+  441  ls
+  442  mkdir -p dir1/dir2
+  443  ls
+  444  ls dir1/
+  445  ls
+  446  cat > text1
+  447  cat text1 
+  448  cat > text2
+  449  cat > text1 text2 
+  450  ls
+  451  cat text1 text2
+  452  cat > text1
+  453  ls
+  454  cat text1 
+  455  cat text1 text2
+  456  cat text1 text2 > text3
+  457  cat text3
+  458  cat -n text3
+  459  cat -n text3 > text4
+  460  cat text4
+  461  ls
+  462  rm test1 text2 text3
+  463  rm text1 text2 text3
+  464  ls
+  465  cat text4 
+  466  cp text4 text1
+  467  ls
+  468  cat text1
+  469  cp -i text1 text4 wheat
+  470  ls wheat/
+  471  ls -l
+  472  ls
+  473  ls -F
+  474  cp -ir wheat malt
+  475  ls malt/
+  476  ls malt/wheat/
+  477  ls
+  478  cp -i wheat malt
+  479  alias cp=cp -i
+  480  alias cp='cp -i'
+  481  cp -r wheat malt
+  482  cp -ir wheat malt
+  483  cd ..
+  484  ls
+  485  git status
+  486  git add *
+  487  git status
+  488  git commit -m 'mkdir sp'
+  489  git push
+  490  clear
+  491  ls
+  492  cd linux-study/
+  493  ls
+  494  alias
+  495  ls
+  496  cd chap2
+  497  ls
+  498  ls -F
+  499  whichcrontab
+  500  which crontab 
+  501  which ls
+  502  whereis ls
+  503  cd ..
+  504  ls -F
+  505  mkdir chap3
+  506  ls -F
+  507  cd chap3
+  508  ls -F
+  509  xeyes &
+  510  fg
+  511  job
+  512  job list
+  513  fg
+  514  ls
+  515  cat > cocktail
+  516  less cocktail 
+  517  xeyes
+  518  jobs
+  519  fg
+  520  jobs
+  521  xeyes &
+  522  jobs
+  523  xeyes &
+  524  jobs
+  525  jobs %2
+  526  jobs %1
+  527  jobs %% %1
+  528  xeyes &
+  529  jobs
+  530  jobs %%
+  531  jobs %% %1
+  532  jobs -l
+  533  jobs -p
+  534  jobs -lp
+  535  jobs -l
+  536  ps | grep xeyes
+  537  jobs %xe
+  538  jobs %x
+  539  jobs %?xe
+  540  jobs
+  541  jobs %xeyes
+  542  jobs %?xeyes
+  543  jobs
+  544  jobs %xey
+  545  jobs
+  546  cat cocktail | less &
+  547  jobs
+  548  ps
+  549  jobs -l
+  550  ls
+  551  jobs
+  552  fg %1
+  553  jobs -l
+  554  jobs
+  555  jobs -l
+  556  fg %-
+  557  jobs -l
+  558  kill %-
+  559  jobs
+  560  jobs -l
+  561  jobs kill %%
+  562  jobs
+  563  kill %%
+  564  jobs
+  565  jobs -l
+  566  jobs
+  567  ls -F
+  568  less cocktail 
+  569  fg
+  570  jobs -l
+  571  less cocktail 
+  572  jobs
+  573  fg %less
+  574  jobs
+  575  fg
+  576  ls
+  577  jobs -l
+  578  xeyes
+  579  bg %1
+  580  fg
+  581  xeyes
+  582  jobs -l
+  583  bg %1
+  584  jobs -l
+  585  jobs
+  586  kill %1 %2
+  587  jobs -l
+  588  jobs
+  589  jobs -l
+  590  jobs
+  591  ls
+  592  jobs
+  593  jobs -l
+  594  clear
+  595  ps
+  596  xeyes &
+  597  ps auwx | grep xey
+  598  ps auxx | grep xey
+  599  ps auxw
+  600  ps auxww
+  601  clear
+  602  jobs
+  603  ps auxw | grep xeye
+  604  ps auxw | header
+  605  ps auxw -header
+  606  ps auxw | head5
+  607  ps auxw
+  608  clear
+  609  jobs -l
+  610  kill 45669 
+  611  jobs
+  612  xeyes &
+  613  jobs
+  614  kill %%
+  615  jobs
+  616  xeyes &
+  617  killall xeyes 
+  618  xeyes &
+  619  jobs
+  620  killall xeyes 
+  621  xeyes &
+  622  kill -STOP %%
+  623  jobs
+  624  fg
+  625  jobs
+  626  xeyes &
+  627  kill -HUP %1
+  628  jobs
+  629  xeyes &
+  630  kill -CONT %1
+  631  jobs
+  632  kill -CONT %1
+  633  jobs
+  634  kill %1
+  635  jobs
+  636  cd ..
+  637  git status
+  638  git add *
+  639  git status
+  640  git commit -m 'ps jobs kill fg bg'
+  641  git push
+  642  shutdown
+  643  sudo -i
+  644  exit
+  645  ls -F
+  646  cd linux-study/
+  647  ls -F
+  648  cd chap3
+  649  ls -F
+  650  ps auxw
+  651  clear
+  652  ps lf
+  653  ps alxf
+  654  ps lf
+  655  ps lf > ps_lf
+  656  ls -F
+  657  ps m
+  658  ps mx
+  659  ps m
+  660  ps l
+  661  ps lf
+  662  xeyes &
+  663  nice xeyes &
+  664  ps l
+  665  nice -19 xeyes &
+  666  ps l
+  667  nice -n -19 xeyes &
+  668  ps l
+  669  sleep 3
+  670  ps l
+  671  ps l > ps_l
+  672  ls 0F
+  673  ls -F
+  674  sleep 3; echo '3sec!'
+  675  cd ..
+  676  git status
+  677  git add *
+  678  git status
+  679  git commit -m 'ps l, ps lf'
+  680  git push
+  681  ps l
+  682  jobs
+  683  killall xeyes
+  684  jobs
+  685  which cron
+  686  which crontab
+  687  whereas crontab
+  688  whereis crontab
+  689  cat ~/.crontab
+  690  ls
+  691  cd linux-study/
+  692  ls
+  693  cd chap3
+  694  ls
+  695  cat > .crontab
+  696  ls
+  697  touch .crontab
+  698  ls -F
+  699  ls -a
+  700  vi .crontab 
+  701  fg
+  702  crontab .crontab
+  703  ls
+  704  crontab -l
+  705  ls -F
+  706  cat crontest.txt 
+  707  crontab -l
+  708  crontab -r
+  709  crontab -l
+  710  crontab -e
+  711  kill %1
+  712  jobs
+  713  ls -aF
+  714  crontab .crontab
+  715  crontab -l
+  716  crontab -e
+  717  jobs
+  718  ps
+  719  ps auxw | grep crontab
+  720  cat crontest.txt 
+  721  crontab -r
+  722  crontab -l
+  723  ls /etc
+  724  ls /etc/cron -aF
+  725  date
+  726  cal
+  727  cal 5 2020
+  728  cal -y
+  729  cal 2025
+  730  cd ..
+  731  ls
+  732  git status
+  733  git add *
+  734  git status
+  735  git commit -m 'cron cal'
+  736  git push
+  737  git config --unset credential.helper
+  738  git push
+  739  git config credential.helper store
+  740  git push
+  741  git status
+  742  ls -F
+  743  cd chap3
+  744  ls
+  745  cal > cal
+  746  cat cal
+  747  cd ..
+  748  git status
+  749  git add *
+  750  git commit -m 'cal'
+  751  git push
+  752  ls -F
+  753  cd linux-study/
+  754  ls -F
+  755  mkdir chap4
+  756  cd chap4
+  757  ls -F
+  758  whoami
+  759  groups
+  760  id
+  761  whoami | groups | id
+  762  whoami
+  763  w
+  764  w > w.text
+  765  cat w.text 
+  766  w -sh
+  767  w
+  768  passwd
+  769  sudo -i
+  770  passwd
+  771  suod -i
+  772  passwd jyh
+  773  sudo -i
+  774  df
+  775  df > df
+  776  cat df
+  777  df
+  778  du
+  779  cd
+  780  du
+  781  ls -F
+  782  cd linux-study/
+  783  ls -F
+  784  du
+  785  ls -F
+  786  cd chap4
+  787  ls -F
+  788  du
+  789  du -a
+  790  du -s
+  791  du .
+  792  cd ..
+  793  du
+  794  du chap3
+  795  cd chap4
+  796  ls -F
+  797  df -a
+  798  df -H
+  799  last
+  800  last > last
+  801  cat last 
+  802  last -x
+  803  last
+  804  last -x
+  805  uptime
+  806  uptime > uptime
+  807  ls -F
+  808  uptime -p
+  809  uptime -s
+  810  lscpu
+  811  uname
+  812  uname -a
+  813  uname -a > uname
+  814  ls -F
+  815  cd ..
+  816  git status
+  817  git add *
+  818  git commit -m 'df du last uname uptime w'
+  819  git push
+  820  git status
+  821  ls -F
+  822  cd lin
+  823  cd linux-study/
+  824  ls -F
+  825  cd chap5
+  826  ls -F
+  827  tail -f words
+  828  ls -F
+  829  cd linux-study/
+  830  ls -F
+  831  cd chap7
+  832  ls -F
+  833  cd ..
+  834  mkdir chap7-1
+  835  ls -F
+  836  cd chap7-1/
+  837  ls
+  838  touch a b c
+  839  ls ?
+  840  ls ??
+  841  ls [abc]
+  842  ls [!a]
+  843  ls [abc]
+  844  ls [!a]
+  845  mkdir chap4
+  846  ls -F
+  847  rm -r chap4/
+  848  ls -F
+  849  history 
+  850  history | tail -n 10
+  851  history 10
+  852  ls
+  853  alias ls='ls -F'
+  854  ls
+  855  cd ..
+  856  ls
+  857  ls color=auto
+  858  ls -color=auto
+  859  ls --color=auto
+  860  alias ls='ls -F --color=auto'
+  861  ls
+  862  cd chap7-1/
+  863  ls
+  864  cd ..
+  865  touch alias.sh
+  866  vi alias.sh 
+  867  type ls
+  868  type rm
+  869  man bash
+  870  echo $BASH
+  871  echo BASH
+  872  echo \$BASH
+  873  echo $BASH
+  874  echo BASH
+  875  echo \$Bash
+  876  echo $USER 
+  877  echo 'USER=$USER'
+  878  echo "USER=$USER"
+  879  echo -e "malt\tcask"
+  880  echo  "malt\tcask"
+  881  echo -e "malt\tcask"
+  882  declare 
+  883  declare | head 5
+  884  declare | head -n 5
+  885  declare | grep ^PS1
+  886  printenv
+  887  printenv HOME 
+  888  VARNAME=value123
+  889  echo $VARNAME 
+  890  MYNAME='Super Maltman'
+  891  echo $MYNAME 
+  892  MYLOGINNAME="My login name is: $USER"
+  893  echo $MYLOGINNAME 
+  894  unset VARNAME 
+  895  unset MYLOGINNAME 
+  896  echo $MYLOGINNAME 
+  897  echo $VARNAME 
+  898  echo $PATH
+  899  export NAME=value
+  900  printenv NAME
+  901  printenv DEFINEDNAME
+  902  echo $DEFINEDNAME
+  903  unset NAME
+  904  git status
+  905  git add *
+  906  git commit -m 'shell var env var'
+  907  git push
+  908  cd linux-study/
+  909  l
+  910  cd chap8
+  911  l
+  912  sudo -i
+  913  get passwd
+  914  getent passwd
+  915  getent passwd > getent-passwd
+  916  l
+  917  getent group users
+  918  getent group jyh
+  919  dmesg
+  920  sudo dmesg
+  921  sudo dmesg -c
+  922  service --status-all
+  923  service --status-all > service-statusAll
+  924  l
+  925  service cups status
+  926  systemctl -a list-units
+  927  systemctl status
+  928  systemctl status ssh
+  929  service cups status
+  930  service ssh status
+  931  service cups stop
+  932  service --status-all
+  933  service cups start
+  934  service --status-all
+  935  systemctl stop ssd
+  936  service --status-all
+  937  systemcel -a
+  938  systemctl -a
+  939  cd ..
+  940  git status
+  941  git add *
+  942  git commit -m 'service systemctl getnet'
+  943  git push
+  944  shutdown
+  945  shutdown now
+  946  sudo shutdown now
+  947  l
+  948  cd linux-study/
+  949  l
+  950  mkdir chap9
+  951  cd chap9
+  952  l
+  953  ping 192.168.0.1
+  954  ping google.com
+  955  ping example.com
+  956  ping -c 3 google.com > ping_google
+  957  l
+  958  cat ping_google 
+  959  tracepath google.com
+  960  tracepath example.com
+  961  tracepath www.example.com
+  962  traceroute google.com
+  963  traceroute www.example.com
+  964  sudo apt install traceroute
+  965  traceroute google.com
+  966  traceroute www.example.com
+  967  host google.com
+  968  host 142.250.206.206
+  969  host www.google.com
+  970  host 142.250.76.132
+  971  host www.example.com
+  972  host 93.184.216.34
+  973  dig www.example.com
+  974  dig www.example.com > dig
+  975  cat dig 
+  976  cd ..
+  977  git status
+  978  git add *
+  979  git status
+  980  git commit -m 'host tracepath ping'
+  981  git push
+  982  l
+  983  cd linux-study/
+  984  l
+  985  mkdir vi
+  986  l
+  987  cd vi
+  988  l
+  989  vi
+  990  touch AWS
+  991  l
+  992  vi AWS 
+  993  vi A
+  994  l
+  995  mv AWS aws
+  996  ls
+  997  vi aws 
+  998  cd ..
+  999  l
+ 1000  git status
+ 1001  git add *
+ 1002  git status
+ 1003  git commit -m 'vi'
+ 1004  git push
+ 1005  l
+ 1006  cd linux-study/
+ 1007  l
+ 1008  cd vi
+ 1009  l
+ 1010  vi aws 
+ 1011  cd ..
+ 1012  git status
+ 1013  git add *
+ 1014  git status
+ 1015  git commit -m 'vi'
+ 1016  git push
+ 1017  cd linux-study/
+ 1018  l
+ 1019  cd shellscript/
+ 1020  l
+ 1021  vi test4-1.sh
+ 1022  chmod u+x test4-1.sh 
+ 1023  ./test4-1.sh 
+ 1024  l
+ 1025  vi test4-1-rm.sh
+ 1026  chmod u+x test4-1-rm.sh 
+ 1027  ./test4-1-rm.sh 
+ 1028  vi test4-1-rm.sh 
+ 1029  ./test4-1-rm.sh 
+ 1030  vi test4-1-rm.sh 
+ 1031  ./test4-1-rm.sh 
+ 1032  l
+ 1033  vi test4-2.sh
+ 1034  chmod u+x test4-2.sh 
+ 1035  ./test4-2.sh 
+ 1036  l
+ 1037  vi test4-2-rm.sh
+ 1038  chmod u+x test4-2-rm.sh 
+ 1039  ./test4-2-rm.sh 
+ 1040  l
+ 1041  vi test5-1.sh
+ 1042  chmod u+x test5-1.sh 
+ 1043  ./test5-1.sh 
+ 1044  l
+ 1045  vi prac5-1.sh
+ 1046  chmod u+x prac5-1.sh 
+ 1047  ./prac5-1.sh 1 5
+ 1048  vi test5-2.sh
+ 1049  chmod u+x test5-2.sh 
+ 1050  ./test5-2.sh 
+ 1051  vi prac5-2.sh
+ 1052  chmod u+x prac5-2.sh 
+ 1053  ./prac5-2.sh 3 7
+ 1054  cd ..
+ 1055  l
+ 1056  git status
+ 1057  git add *
+ 1058  git status
+ 1059  git commit -m 'while for expr'
+ 1060  git push
+ 1061  shutdown
+ 1062  shutdown -r
+ 1063  shutdown -1
+ 1064  l
+ 1065  cd linux-study/
+ 1066  l
+ 1067  cd shellscript/
+ 1068  l
+ 1069  vi test6.sh
+ 1070  chmod u+x test6.sh 
+ 1071  ./test6.sh -a
+ 1072  ./test6.sh -b hello
+ 1073  ./test6.sh -b hello bye
+ 1074  vi prac6.sh
+ 1075  chmod u+x prac6.sh 
+ 1076  ./prac6.sh -a hello bye
+ 1077  cat prac6.sh 
+ 1078  ./prac6.sh -a hello bye
+ 1079  vi prac6.sh 
+ 1080  ./prac6.sh -a hello bye
+ 1081  cat test6.sh 
+ 1082  ./prac6.sh -a first second
+ 1083  vi prac6.sh 
+ 1084  ./prac6.sh -a first second
+ 1085  vi prac6.sh 
+ 1086  ./prac6.sh -a first second
+ 1087  ./prac6.sh -a argument first second
+ 1088  vi prac6.sh 
+ 1089  ./prac6.sh -a argument first second
+ 1090  vi prac6.sh test6.sh 
+ 1091  cd ..
+ 1092  l
+ 1093  git status
+ 1094  git add *
+ 1095  git commit -m 'getopts'
+ 1096  git push
+ 1097  l
+ 1098  cd linux-study/
+ 1099  l
+ 1100  cd shellscript/
+ 1101  l
+ 1102  vi test7-1.sh
+ 1103  chmod u+x test7-1.sh 
+ 1104  ./test7-1.sh 
+ 1105  vi prac7.sh
+ 1106  chmod u+x prac7.sh 
+ 1107  ./prac7.sh 1 2 3 4
+ 1108  l
+ 1109  cd ..
+ 1110  git status
+ 1111  git add *
+ 1112  git commit -m 'function'
+ 1113  git push
+ 1114  l
+ 1115  cd linux-study/
+ 1116  l
+ 1117  cd shellscript/
+ 1118  l
+ 1119  ls *.sh
+ 1120  l *.sh
+ 1121  ll *.sh
+ 1122  l
+ 1123  chear
+ 1124  cat test6.sh 
+ 1125  l
+ 1126  cat test6.sh 
+ 1127  history
+ 1128  cd ..
+ 1129  l
+ 1130  mkdir chap1
+ 1131  cd chap1
+ 1132  l
+ 1133  history > history
