@@ -1,0 +1,1 @@
+export VAR=value -> you can make environment variable key=value

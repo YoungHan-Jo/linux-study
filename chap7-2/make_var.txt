@@ -1,0 +1,1 @@
+VAR=value -> you can make var with value that you want to put in there
