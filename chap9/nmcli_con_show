@@ -1,0 +1,3 @@
+NAME         UUID                                  TYPE      DEVICE  
+유선 연결 1  ea9c10eb-2abf-39d8-b2a7-cf95d5e54ed6  ethernet  enp0s3  
+docker0      88032987-7c8e-4bf5-bcd2-3c64d349b5d9  bridge    docker0 
